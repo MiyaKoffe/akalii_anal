@@ -1,0 +1,19 @@
+unreachable code after return statement main.js:183:8
+GEThttp://127.0.0.1:5501/favicon.ico
+[HTTP/1.1 404 Not Found 0ms]
+
+Set(19) [ "Nook Shopping Seasonal", "Crafting", "Nook's Cranny", "C.J.", "Flick", "Birthday", "Nook Shopping Promotion", "Starting items", "Nook Miles Redemption", "Nook's Cranny; Pavé", "Luna", "Gulliver", "Gullivarrr" , "Crafting; Nook's Cranny" , "Crafting; Jack" , "Jingle" , "Crafting; Nook's Cranny; Franklin" , "Cyrus"   ]
+​
+​
+<entries>
+
+​​
+​​
+​​
+​​
+​​
+​​
+18: "Cyrus"
+​
+<prototype>: Set.prototype { … }
+main.js:180:17

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header__content container">
+              
+            </div>
+            <div class="header__navigation">
+                <ul class="header__item item_rows">
+                    <li id="songs" onclick="objectSelect(this)">
+                        <a class="nav_link" href="#">songs</a>
+                    </li>
+                    <li id="houseware" onclick="objectSelect(this)">
+                        <a class="nav_link" href="#">houseware</a>
+                    </li>
+                    <li id="fish" onclick="objectSelect(this)">
+                        <a class="nav_link" href="#">fish</a>
+                    </li>
+                    <li id="villagers" onclick="objectSelect(this)">
+                        <a class="nav_link" href="#">villagers</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="out container">
+        <sidebar class="side">
+            <div class="side__inner forFooter">
+                <div class="search">
+                    <input type="text" id="searchInput" class="searchInput" placeholder="(.)(.)" onkeyup="search(this)">
+                </div>
+
+                <div class="filtersUse"></div>
+
+                <div class="footer">
+                    <div class="footer_content">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="info">
+                <h3>Найдено:</h3>
+                <p class="count">0</p>
+            </div>
+            </sidebar>
+
+
+        <main class="main">
+
+           
+
+                 <div class="play__music" id="1" onclick="playMusic(this.id)">(.)(.)</div>
+
+            </div>
+
+
+        </main>
+
+        <div class="music_content container">
+            <audio class="audio" controls="control" src="blob:null/d7a440c6-c29a-4466-b62d-652e9a495cec"></audio>
+        </div>
+    </div>
+
+
+<script src="./main.js"></script>
+</body>
+</html>

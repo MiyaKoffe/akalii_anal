@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'MontserratAlternates_SemiBold';
+    src: url('fonts/MontserratAlternates-SemiBoldItalic.eot');
+    src: url('fonts/MontserratAlternates-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MontserratAlternates-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/MontserratAlternates-SemiBoldItalic.woff') format('woff'),
+        url('fonts/MontserratAlternates-SemiBoldItalic.ttf') format('truetype'),
+        url('fonts/MontserratAlternates-SemiBoldItalic.svg#MontserratAlternates-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
